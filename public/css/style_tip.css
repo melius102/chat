@@ -1,0 +1,16 @@
+/* centering div image with shadow */
+#logo_app_div {
+    margin: 0 auto;
+    text-align: center;    
+}
+
+#logo_app_div #logo_app {
+    display: inline-block;
+    box-shadow: 4px 4px 10px black;
+    border-radius: 8px;
+}
+
+#logo_app_div #logo_app img {
+    display: block;
+}
+
