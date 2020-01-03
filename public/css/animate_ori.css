@@ -1,0 +1,62 @@
+@keyframes logo_show {
+    from {
+        /* width: 150px; */
+        width: 50%;
+        max-width: 240px;
+        top: 120%;
+        right: 50%;
+    }
+
+    20% {
+        /* logo arrived */
+        top: 40%;
+    }
+
+    58% {
+        /* logo start */
+        top: 40%;
+        right: 50%;
+        /* width: 150px; */
+        width: 50%;
+        max-width: 240px;
+    }
+
+    80% {
+        /* width: 80px; */
+        width: 15%;
+        max-width: 80px;
+        top: 6%;
+        right: 10%;
+        position: absolute;
+    }
+}
+
+@keyframes logo_name_show {
+    from {
+        opacity: 0;
+        top: 57%;
+    }
+
+    18% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0;
+        top: 57%;
+    }
+}
+
+@keyframes show_all {
+    from {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+}

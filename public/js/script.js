@@ -10,4 +10,12 @@ window.onload = function () {
     icon_key.onclick = function () {
         frm.key_no.classList.toggle('bng_test');
     }
+
+    btn_enter.onclick = function () {
+        return false;
+    }
+
+    btn_join.onclick = function () {
+        return false;
+    }
 }
