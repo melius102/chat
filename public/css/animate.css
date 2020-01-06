@@ -1,37 +1,45 @@
-@keyframes logo_show {
+@keyframes logo_img_show {
     from {
-        /* width: 150px; */
-        width: 12%;
-        top: 120%;
-        right: 50%;
+        height: 20%;
+        /* 5 */
+        top: 150%;
+        right: 48%;
         transform: translate(50%, -100%);
     }
 
     20% {
         /* logo arrived */
-        top: 50%;
+        height: 20%;
+        /* 5 */
+        top: 49%;
+        /* 10 + 5 */
+        right: 48%;
     }
 
     58% {
         /* logo start */
-        width: 12%;
-        top: 50%;
-        right: 50%;
+        height: 20%;
+        /* 5 */
+        top: 49%;
+        /* 10 + 5 */
+        right: 48%;
         transform: translate(50%, -100%);
     }
 
     80% {
-        width: 5%;
-        top: 1%;
-        right: 1%;
+        height: 8%;
+        /* 5 */
+        top: 2%;
+        /* 1 */
+        right: 2vh;
         transform: translate(0, 0);
     }
 }
 
-@keyframes logo_name_show {
+@keyframes logo_txt_show {
     from {
         opacity: 0;
-        top: 50%;
+        top: 47%;
     }
 
     18% {
@@ -44,11 +52,11 @@
 
     60% {
         opacity: 0;
-        top: 50%;
+        top: 47%;
     }
 }
 
-@keyframes show_all {
+@keyframes show_up {
     from {
         opacity: 0;
     }
@@ -58,37 +66,12 @@
     }
 }
 
-/* lecture: tablet 768px ~ 1100px */
-@media screen and (max-width: 1100px) {}
+@keyframes login_input_show {
+    from {
+        width: 0vh;
+    }
 
-@media screen and (max-width: 768px) {
-    @keyframes logo_show {
-        from {
-            /* width: 150px; */
-            width: 24%;
-            top: 120%;
-            right: 50%;
-            transform: translate(50%, -100%);
-        }
-
-        20% {
-            /* logo arrived */
-            top: 50%;
-        }
-
-        58% {
-            /* logo start */
-            width: 24%;
-            top: 50%;
-            right: 50%;
-            transform: translate(50%, -100%);
-        }
-
-        80% {
-            width: 10%;
-            top: 2%;
-            right: 2%;
-            transform: translate(0, 0);
-        }
+    90% {
+        width: 0vh;
     }
 }
