@@ -20,7 +20,7 @@ function updateViewport(new_w, new_h) {
     metaViewport.setAttribute("content", viewportParams);
 
     // document.documentElement.style.setProperty('--varw', `${cur_w}px`);
-    // document.documentElement.style.setProperty('--varh', `${cur_h}px`);
+    document.documentElement.style.setProperty('--varh', `${cur_h / 100}px`);
 }
 
 function hideViewport(flag) {
