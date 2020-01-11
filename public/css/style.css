@@ -15,7 +15,8 @@ input,
 table,
 td,
 button,
-i {
+i,
+form {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -170,7 +171,8 @@ i {
 }
 
 #wrap #login_btn #btn_social i {
-    font-size: calc(var(--varh, 1vh) * 5.8); /* 2/32 conver to font-size */
+    font-size: calc(var(--varh, 1vh) * 5.8);
+    /* 2/32 conver to font-size */
     border: 0;
 }
 
