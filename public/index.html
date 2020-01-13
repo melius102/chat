@@ -6,7 +6,8 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chat</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style_log.css">
+    <link rel="stylesheet" type="text/css" href="css/style_cht.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/a427fd7f5c.js" crossorigin="anonymous"></script>
@@ -14,34 +15,35 @@
 </head>
 
 <body>
+    <!-- loging part -->
     <!-- <form id="wrap" name="frm"> -->
-    <div id="wrap">
-        <div id="logo">
-            <img id="logo_r" src="img/big_logo_em.svg">
+    <div id="log_wrap">
+        <div id="log_logo">
+            <img id="log_logo_r" src="img/big_logo_em.svg">
             <h1>j. rafahel park</h1>
-            <img id="logo_a" class="show_up" src="img/app_logo_e.svg">
+            <img id="log_logo_a" class="show_up" src="img/app_logo_e.svg">
         </div>
-        <!-- <form id="login_input" class="show_up" name="frm"> -->
-        <div id="login_input" class="show_up">
+        <!-- <form id="log_login_input" class="show_up" name="frm"> -->
+        <div id="log_login_input" class="show_up">
             <table>
                 <tr>
                     <td><img src="img/Icon simple-glassdoor.svg"></td>
-                    <td><input id="input_room" type="text" name="room_no"></td>
+                    <td><input id="log_input_room" type="text" name="room_no"></td>
                 </tr>
                 <tr>
                     <td><img src="img/Icon awesome-id-badge.svg"></td>
-                    <td><input id="input_user" type="text" name="user_no"></td>
+                    <td><input id="log_input_user" type="text" name="user_no"></td>
                 </tr>
                 <tr>
                     <td><img src="img/Icon ionic-md-key.svg"></td>
-                    <td><input id="input_pw" type="password" name="key_no"></td>
+                    <td><input id="log_input_pw" type="password" name="key_no"></td>
                 </tr>
             </table>
         </div>
-        <div id="login_btn" class="show_up">
-            <button id="btn_enter">Sign in</button>
-            <button id="btn_join">Sign up</button>
-            <div id="btn_social">
+        <div id="log_login_btn" class="show_up">
+            <button id="log_btn_enter">Sign in</button>
+            <button id="log_btn_join">Sign up</button>
+            <div id="log_btn_social">
                 <i class="fab fa-google"></i>
                 <i class="fab fa-facebook-square"></i>
                 <i class="fab fa-twitter-square"></i>
@@ -49,6 +51,26 @@
         </div>
     </div>
 
+    <!-- chatting part -->
+    <div id="cht_wrap">
+        <img src="img/bng_edit2.svg">
+        <div id="cht_title">
+            <h1 id="cht_room_no">room no. 123</h1>
+        </div>
+        <div id="cht_msg_win">
+        </div>
+        <div id="cht_input_ui">
+            <div id='cht_input_box'>
+                <div id="cht_input_text">
+                    <textarea id="cht_input_textarea" rows="1"></textarea>
+                </div>
+                <div id="cht_input_img">
+                    <img id="cht_input_send" src="img/Icon awesome-arrow-square.svg">
+                    <img id="cht_input_plus" src="img/Icon awesome-plus-square.svg">
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

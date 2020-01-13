@@ -1,4 +1,4 @@
-@keyframes logo_img_show {
+@keyframes log_logo_img_show {
     from {
         height: 20%;
         /* 5 */
@@ -36,7 +36,7 @@
     }
 }
 
-@keyframes logo_txt_show {
+@keyframes log_logo_txt_show {
     from {
         opacity: 0;
         top: 47%;
@@ -66,7 +66,7 @@
     }
 }
 
-@keyframes login_input_show {
+@keyframes log_login_input_show {
     from {
         width: 0;
     }
